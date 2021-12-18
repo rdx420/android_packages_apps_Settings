@@ -94,6 +94,12 @@
             settings:keywords="@string/keywords_color_mode"/>
     </PreferenceCategory>
     
+    <com.arrow.settings.preferences.ArrowPreference
+            android:key="theme_category"
+            android:title="@string/theme_title"
+	    android:summary="@string/theme_summary"
+            android:fragment="com.arrow.settings.fragments.ThemeSettings"/>
+    
     <PreferenceCategory
         android:title="@string/category_qs_title">
         
