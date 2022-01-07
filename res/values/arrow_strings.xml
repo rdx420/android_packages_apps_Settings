@@ -105,4 +105,8 @@
     <string name="category_qs_title">QS Modes</string>
     <string name="qs_transparency_title">QS Transparency</string>
     <string name="qs_transparency_summary">Choose how transparent you want your QS Panel to be (Requires SystemUI)</string>
+
+    <!-- Hardware info -->
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">Total RAM</string>
 </resources>
