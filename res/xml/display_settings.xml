@@ -143,6 +143,18 @@
             android:title="@string/edge_light_title"
             android:summary="@string/edge_light_intro_text"
             android:fragment="com.arrow.settings.fragments.EdgeLightSettings" />
+            
+    <PreferenceCategory
+        android:title="@string/lock_screen_custom_clock_face_category">
+
+        <ListPreference
+            android:key="lock_screen_custom_clock_face"
+            android:summary="%s"
+            android:title="@string/lock_screen_custom_clock_face_title"
+            android:entries="@array/lock_screen_custom_clock_face_entries"
+            android:entryValues="@array/lock_screen_custom_clock_face_values" />
+
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:title="@string/category_name_display_controls">
