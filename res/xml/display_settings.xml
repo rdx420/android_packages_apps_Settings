@@ -99,6 +99,12 @@
             android:title="@string/theme_title"
 	    android:summary="@string/theme_summary"
             android:fragment="com.arrow.settings.fragments.ThemeSettings"/>
+   
+   <com.arrow.settings.preferences.SystemSettingSwitchPreference
+        android:key="statusbar_clock_chip"
+        android:title="@string/statusbar_clock_chip_title"
+        android:summary="@string/statusbar_clock_chip_summary"
+        android:defaultValue="false" />
     
     <PreferenceCategory
         android:title="@string/category_qs_title">

@@ -199,5 +199,9 @@
     <string name="status_bar_battery_percent_text_next_left">Next to the icon (left)</string>
     <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
     <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
+    
+    <!-- Statusbar Clock background chip -->
+    <string name="statusbar_clock_chip_title">Background chip</string>
+    <string name="statusbar_clock_chip_summary">Display accented chip behind clock</string>
 
 </resources>
