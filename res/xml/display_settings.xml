@@ -155,6 +155,19 @@
             android:entryValues="@array/lock_screen_custom_clock_face_values" />
 
     </PreferenceCategory>
+    
+    <com.arrow.settings.preferences.SystemSettingSwitchPreference
+        android:key="reticker_status"
+        android:title="@string/reticker_title"
+        android:summary="@string/reticker_summary"
+        android:defaultValue="false" />
+
+    <com.arrow.settings.preferences.SystemSettingSwitchPreference
+        android:dependency="reticker_status"
+        android:key="reticker_colored"
+        android:title="@string/reticker_colored_title"
+        android:summary="@string/reticker_colored_summary"
+        android:defaultValue="false" />
 
     <PreferenceCategory
         android:title="@string/category_name_display_controls">
