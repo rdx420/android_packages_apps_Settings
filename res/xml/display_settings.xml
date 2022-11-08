@@ -93,6 +93,18 @@
             settings:controller="com.android.settings.display.ColorModePreferenceController"
             settings:keywords="@string/keywords_color_mode"/>
     </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="@string/category_qs_title">
+        
+        <com.arrow.support.preferences.SystemSettingSeekBarPreference
+            android:key="qs_transparency"
+            android:title="@string/qs_transparency_title"
+            android:summary="@string/qs_transparency_summary"
+            android:defaultValue="10"
+            settings:interval="1"
+            android:max="10"         
+            android:min="1" />
 
     <PreferenceCategory
         android:title="@string/category_name_display_controls">

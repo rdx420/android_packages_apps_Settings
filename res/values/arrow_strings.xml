@@ -101,4 +101,8 @@
     <string name="battery_stat_capacity">Capacity</string>
     <string name="battery_stat_cycle">Cycle</string>
 
+   <!-- QS Transparency -->
+    <string name="category_qs_title">QS Modes</string>
+    <string name="qs_transparency_title">QS Transparency</string>
+    <string name="qs_transparency_summary">Choose how transparent you want your QS Panel to be (Requires SystemUI)</string>
 </resources>
